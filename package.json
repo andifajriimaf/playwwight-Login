@@ -1,12 +1,13 @@
 {
-  "name": "belajar-playwright",
+  "name": "playwright-login-automation",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Data-driven Playwright + TypeScript E2E tests for Sauce Demo with Excel evidence reports",
   "devDependencies": {
     "@playwright/test": "^1.65.1",
     "@types/node": "^26.6.6"
